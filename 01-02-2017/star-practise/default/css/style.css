@@ -1,0 +1,22 @@
+.star {
+	width: 500px;
+	height: 500px;
+	background-color: black;
+	position: relative;
+}
+.blank-star {
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.full-star {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	background-color: blue;
+	bottom: 0;
+	right: 0;
+}

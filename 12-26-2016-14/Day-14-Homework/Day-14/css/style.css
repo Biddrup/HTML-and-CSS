@@ -1,0 +1,102 @@
+.navbar {
+	border: none;
+}
+.navbar-default {
+    background-color: #fff;
+}
+/*End of menu part editing*/
+.slider {
+	background-image: url(../images/slider.jpg);
+	height: 400px;
+	width: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+	text-align: center;
+	padding: 50px;
+}
+.paragraph {
+	font-family: Opensans;
+}
+/*End of slider menu editing*/
+.article {
+	margin-top: 30px;
+	background-color: #f2f2f2;
+}
+.download .btn-default {
+    border-color: #000;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.section {
+	margin-top: 30px;
+	background-color: #f2f2f2;
+}
+.box-3 {
+	background-color: #fff;
+	text-align: center;
+}
+/*
+======================================
+End of article
+======================================
+*/
+.special {
+	position: relative;
+}
+.special:before {
+    content: "";
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    top: -10px;
+    background-color: #fff;
+}
+/*
+=================================================
+Special to create gap between two images' rows
+=================================================
+*/
+.feature {
+	position: relative;
+}
+.feature ul li {
+	list-style: none;
+}
+/*.tick:before {
+	content: "f2ba";
+	font-family: fontawesome;
+	left: -5px;
+}*/
+/*
+========================
+End of feature area
+========================
+*/
+.send-message {
+	border-radius: 50%;
+	display: inline-block;
+}
+.contact-area {
+	margin-bottom: 40px;
+}
+
+.area-manage {
+	border-radius: 50px;
+	background-color: transparent;
+}
+/*
+==========================
+End of form
+==========================
+*/
+.ledp {
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+	height: 50px;
+	padding: 50px;
+}
+/*======================
+Copyright area
+========================
+*/

@@ -1,0 +1,126 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+/*
+=====================================
+End of /body
+=====================================*/
+.navbar-default {
+	background-color: #fff;
+	border-color: #fff; 
+}
+.navbar-header  a {
+	background-color: #1a54e7;
+	color: #fff;
+	display: inline-block;
+	position: relative;
+}
+.navbar-header a:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: -500px;
+	bottom: 0;
+	right: 100%;
+	background-color: #1a54e7;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-right a:hover {
+	border-bottom: 2px solid #1a54e7;
+	background-color: pink;
+}
+
+/*
+===================================================
+The end of header part
+===================================================
+*/
+.slider {
+	background-image: url(../images/slider.jpg);
+	height: 500px;
+	width: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin-top: -20px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	position: relative;
+}
+.face {
+	width: 100%;
+	display: block;
+	text-align: center;
+	font-size: 48px;
+	color: #ffffff;
+}
+.face img {
+	border-radius: 50%;
+}
+/*
+===============================
+End of /.slider
+===============================
+*/
+.col-1 {
+	margin-top: 50px;
+}
+.col-2 {
+	margin-top: 50px;
+}
+
+.col-3 {
+	margin-top: 50px;
+}
+/*
+============================================
+End of two column
+============================================
+*/
+.newsletter {
+	background-image: url(../images/newsletter-bg.jpg);
+	widows: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	color: #fff;
+	margin-top: 50px;
+}
+/*
+==============================
+End of /.newsletter
+==============================
+*/
+.col-1 .container img {
+	width: 100%;
+	display: block;
+	position: relative;
+}
+/*
+========================
+End of /.col-1
+========================
+*/
+
+/*img {
+	display: block;
+	position: relative;
+}
+.img:after {
+	content: "Check here";
+	position: absolute;
+	bottom: 50px;
+	background-color: #1a54e7;
+} Why they dont work*/
+.name {
+	color: blue;
+}
+.footer {
+	text-align: center;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}

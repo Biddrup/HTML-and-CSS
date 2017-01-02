@@ -1,0 +1,71 @@
+.navbar-header  a {
+	background-color: #1a54e7;
+	color: #fff;
+	display: inline-block;
+	position: relative;
+}
+.navbar-header a:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: -500px;
+	bottom: 0;
+	right: 100%;
+	background-color: #1a54e7;
+}
+/*
+===================================================
+The end of header part
+===================================================
+*/
+.slider {
+	background-image: url(../images/slider.jpg);
+	height: 500px;
+	width: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin-top: -20px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	position: relative;
+}
+.face {
+	width: 100%;
+	display: block;
+	text-align: center;
+	font-size: 48px;
+	color: #ffffff;
+}
+.face img {
+	border-radius: 50%;
+}
+.slider-footer .container .row .col-md-6 p {
+
+}
+.slider .right-footer p {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	bottom: 100px;
+	right: 100px;
+	display: inline-block;
+	background-color: #1a54e7;
+	padding: 10px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+/*
+==================================
+End of slider
+==================================
+*/
+.content-1 
+.content-1 .container .row . .col-md-6 img {
+	width: 100%;
+	height: 600px;
+}
+.content-1 .container .row . .col-md-6 p {
+	text-align: justify;
+	font-size: 24px;
+}

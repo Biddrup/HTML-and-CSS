@@ -1,0 +1,40 @@
+ul li {
+	list-style:none;
+	position:relative;
+	font-size:30px;
+}
+
+ul li:before{
+	content:"\f00c";
+	position:absolute;
+	font-family:FontAwesome;
+	left:-50px;
+	top:-1px;
+	color:#0089e9;
+}
+
+ul li:hover:before {
+	content:"\f209";
+	font-family:FontAwesome;
+	color:red;
+}
+
+
+ul li:after{
+	content:"\f00c";
+	position:absolute;
+	font-family:FontAwesome;
+	left:90px;
+	top:-1px;
+	color:#0089e9;
+}
+
+ul li:hover:after {
+	content:"\f209";
+	font-family:FontAwesome;
+	color:red;
+}
+
+
+
+

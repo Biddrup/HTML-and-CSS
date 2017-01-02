@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Home</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  	<div class="header">
+  		<div class="main-menu">
+  			<div class="container">
+  				<nav class="navbar navbar-default">
+  				  <div class="container-fluid">
+  				    <!-- Brand and toggle get grouped for better mobile display -->
+  				    <div class="navbar-header">
+  				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+  				        <span class="sr-only">Toggle navigation</span>
+  				        <span class="icon-bar"></span>
+  				        <span class="icon-bar"></span>
+  				        <span class="icon-bar"></span>
+  				      </button>
+  				      <a class="navbar-brand" href="#"><img src="images/logo.jpg" alt=""></a>
+  				    </div>
+
+  				    <!-- Collect the nav links, forms, and other content for toggling -->
+  				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+  				      <ul class="nav navbar-nav navbar-right">
+  				        <li><a href="#">Reality</a></li>
+  				        <li><a href="#">Living</a></li>
+  				        <li><a href="#">Education</a></li>
+  				        <li><a href="#">Mobility</a></li>
+  				        <li class="active"><a href="#"><i class="fa fa-search" aria-hidden="true"></i> <span class="sr-only">(current)</span></a></li>
+  				        <li class="color"><a href="#"><i class="fa fa-user" aria-hidden="true"></i> log in
+  				        <span class="next">
+  				        	
+  				        </span></a></li>
+  				      </ul>
+  				    </div><!-- /.navbar-collapse -->
+  				  </div><!-- /.container-fluid -->
+  				</nav>
+  			</div><!-- /.container -->
+  		</div><!-- /.main-menu -->
+  	</div><!-- /.header -->
+
+
+  	<!-- This is the begenning of query -->
+  	<div class="query" class="text-center">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-md-6 col-md-offset-3">
+  					<div class="heading">
+  						<h2>What you are looikng for?</h2>
+  					</div>
+  					<div class="row">
+  						<div class="col-md-6">
+  							<form action="">
+  								<div class="form-group">
+  									<select class="option-to-choose">
+  								          <option>Dubai</option>
+  								          <option value="usa">USA</option>
+  								          <option value="uk">UK</option>
+  								          <option value="ca">CA</option>
+  								    </select>
+  								</div>
+  							</form>
+  						</div><!-- /.col-md-6 -->
+  						<div class="col-md-6">
+  							<form action="">
+  								<div class="form-group">
+  									<select class="option-to-choose">
+  								          <option>Education</option>
+  								          <option value="usa">Education</option>
+  								          <option value="uk">Culture</option>
+  								          <option value="ca">Sports</option>
+  								    </select>
+  								</div>
+  							</form> <!-- / -->
+  						</div>
+  						<div class="col-md-12">
+  							<div class="for-search">
+  								<form>
+  								  <div class="form-group">
+  								    <label for="exampleInputquery" class="sr-only">keyword, name date</label>
+  								    <input type="text" class="form-control" id="exampleInputquery" placeholder="keyword, name, date">
+  								  </div>
+  								</form>
+  							</div>
+  						</div>
+  					</div><!-- /.row -->
+  					<div class="search">
+  						<button type="button" class="btn btn-info">Search</button>
+  					</div>
+  				</div> <!-- /.col-md-6 -->
+  			</div>
+  		</div>
+  	</div><!-- /.query -->
+
+  	<!-- Begenning of different tabs with option -->
+  	<div class="section">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-md-4">
+  					<div class="use-of-tabs">
+  						<div>
+
+  						  <!-- Nav tabs -->
+  						  <ul class="nav nav-tabs" role="tablist">
+  						    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Recommended</a></li>
+  						    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Latest</a></li>
+  						    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Highlights</a></li>
+  						  </ul>
+
+  						  <!-- Tab panes -->
+  						  <div class="tab-content">
+  						    <div role="tabpanel" class="tab-pane active" id="home">content will be here</div>
+  						    <div role="tabpanel" class="tab-pane" id="profile">content will be here</div>
+  						    <div role="tabpanel" class="tab-pane" id="messages">content will be here</div>
+  						  </div>
+
+  						</div>
+  					</div><!-- /.use-of-tabs -->
+  				</div> <!-- /.col-md-4 -->
+  				<div class="col-md-4">
+  					<div class="row">
+  						<div class="col-md-6">
+  							<form action="">
+  								<div class="form-group">
+  									<select class="next-option-to-choose">
+  								          <option>Dubai</option>
+  								          <option value="usa">USA</option>
+  								          <option value="uk">UK</option>
+  								          <option value="ca">CA</option>
+  								    </select>
+  								</div>
+  							</form>
+  						</div>
+  						<div class="col-md-6">
+  							<div class="show-map">
+  								<button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+  								  SHOW MAP <i class="fa fa-map-marker" aria-hidden="true"></i>
+  								</button>
+  							</div>
+  						</div>
+  					</div>
+  				</div>
+  				
+
+  				<div class="col-md-4">
+  					<div class="classfied">
+	  					<div>
+	  					  <!-- Nav tabs -->
+	  					  <ul class="nav nav-tabs" role="tablist">
+	  					    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+	  					    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+	  					    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a></li>
+	  					    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab"><i class="fa fa-money" aria-hidden="true"></i></a></li>
+	  					    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab"><i class="fa fa-money" aria-hidden="true"></i></a></li>
+	  					  </ul>
+
+	  					  <!-- Tab panes -->
+	  					  <div class="tab-content">
+	  					    <div role="tabpanel" class="tab-pane active" id="home">..</div>
+	  					    <div role="tabpanel" class="tab-pane" id="profile">...</div>
+	  					    <div role="tabpanel" class="tab-pane" id="messages">...</div>
+	  					    <div role="tabpanel" class="tab-pane" id="settings">...</div>
+	  					    <div role="tabpanel" class="tab-pane" id="settings">...</div>
+	  					  </div>
+	  					</div>
+	  				</div>
+  				</div>
+  			</div><!-- /.row -->
+  		</div><!-- /.container -->
+  	</div><!-- /.section -->
+
+	
+
+	<!-- Begenning of feature product -->
+	<div class="products">
+
+		<!-- This is begenning of first row -->
+		<div class="container">
+			<div class="col-md-3">
+				<div class="product-list">
+					<div class="image-green">
+						<img src="images/1.jpg" alt="#" class="img-rounded">
+					</div>
+					<div class="icong">
+						<i class="fa fa-home fa-lg" aria-hidden="true"></i>
+					</div>
+
+					<div class="wordg">
+						<h4>2 bedroom house for rent in Dubai</h4>
+						<span class="spang">Vision Agency</span>
+					</div>
+					<div class="priceg">
+						$2990
+					</div>
+				</div>
+			</div> <!-- /.col-md-3 for green product-->
+			
+			<div class="col-md-3">
+				<div class="product-list">
+					<div class="image-yellow">
+						<img src="images/2.jpg" alt="#" class="img-rounded">
+					</div>
+					<div class="icony">
+						<i class="fa fa-home fa-lg" aria-hidden="true"></i>
+					</div>
+
+					<div class="word">
+						<h4>2 bedroom house for rent in Dubai</h4>
+						<span>Vision Agency</span>
+					</div>
+					<div class="price">
+						$2990
+					</div>
+				</div>
+			</div><!-- /.col-md-3 for yellow image -->
+
+			<div class="col-md-3">
+				<div class="product-list">
+					<div class="image-purple">
+						<img src="images/1.jpg" alt="#" class="img-rounded">
+					</div>
+					<div class="iconp">
+						<i class="fa fa-home fa-lg" aria-hidden="true"></i>
+					</div>
+
+					<div class="wordp">
+						<h4>2 bedroom house for rent in Dubai</h4>
+						<span>Vision Agency</span>
+					</div>
+					<div class="pricep">
+						$2990
+					</div>
+				</div>
+			</div> <!-- /.col-md-3 for purple product-->
+
+			<div class="col-md-3">
+				<div class="product-list">
+					<div class="image-green">
+						<img src="images/1.jpg" alt="#" class="img-rounded">
+					</div>
+					<div class="icong">
+						<i class="fa fa-home fa-lg" aria-hidden="true"></i>
+					</div>
+
+					<div class="wordg">
+						<h4>2 bedroom house for rent in Dubai</h4>
+						<span>Vision Agency</span>
+					</div>
+					<div class="priceg">
+						$2990
+					</div>
+				</div>
+			</div> <!-- /.col-md-3 for green product-->
+		</div><!-- /.container -->
+		
+		<!-- This is begenning of second row -->
+		<div class="container">
+			<div class="col-md-6">
+				<div class="review">
+					<div class="image-review-green">
+						<img src="images/5.jpg" alt="" class="img-rounded">
+					</div>
+					<div class="review-icong">
+						<i class="fa fa-home fa-lg" aria-hidden="true"></i>
+					</div>
+					<div class="row">
+						<div class="col-md-2 col-md-offset-1">
+							<div class="comment-image">
+								<img src="images/7.jpg" alt="reviewer" class="img-circle">
+							</div>
+						</div>
+						<div class="col-md-9">
+							<div class="comment">
+								<h4>Lucy-P</h4>
+								<p>“Aliquam quis pulvinar purus. Etiam cursus ipsum quis enim faucibus, quis posuere orci ornare. Duis mattis sagittis fringilla.”<a href="#">...read more</a></p>
+							</div>
+						</div>
+					</div>
+				</div> <!-- /.review -->
+
+			<div class="col-md-6">
+				
+				</div>
+			</div>
+		</div> <!-- /.container -->
+	</div><!-- /.products -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

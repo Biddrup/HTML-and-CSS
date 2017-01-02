@@ -1,0 +1,29 @@
+ul {
+	list-style: none;
+	position: relative;
+}
+ul li:after {
+	content: "\f0a2";
+	position: absolute;
+	font-family: fontawesome;
+}
+ul li:hover:after {
+	content: "\f265";
+	position: absolute;
+	font-family: fontawesome;
+	font-size: 20px;
+	color: #00f;
+}
+ul li:before {
+	content: "\f265";
+	font-family: fontawesome;
+	font-size: 20px;
+	color: #453;
+	position: absolute;
+	left: -3px;
+}
+ul li:hover:before {
+	content: "\f0a2";
+	font-family: fontawesome;
+	color: #00f;
+}

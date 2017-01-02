@@ -1,0 +1,414 @@
+/*=================================
+The begenning of header
+===================================
+*/
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 6px 15px;
+    font-size: 18px;
+    line-height: 24px;
+}
+ul li a {
+	text-transform: uppercase;
+}
+ul .color {
+	background-color: #e94e38;
+	position: relative;
+}
+.next:after {
+	position: absolute;
+	width: 100px;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	right: -12px;
+	left: 0;
+}
+/*
+==============================
+End of header
+==============================
+*/
+
+
+/*
+==============================
+The begenning of /.query
+==============================
+*/
+.query {
+	background-image: url(../images/slider-background.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding-top: 30px;
+	padding-bottom: 60px;
+	color: #fff;
+
+}
+.heading h2 {
+	font-size: 45px;
+}
+.special-button .btn-default {
+    color: #333;
+    background-color: transparent;
+    border-color: #ccc;
+}
+.form-group .option-to-choose {
+    width: 213px;
+    height: 35px;
+    font-size: 16px;
+    text-indent: 10px;
+    border-radius: 40px;
+    background-color: transparent;
+}
+.for-search {
+	width: 90%;
+}
+.for-search .form-control {
+	background-color: transparent;
+	border-radius: 30px;
+}
+.search .btn-info:hover {
+    color: #fff;
+    background-color: #e94e38;
+    border-color: #fff;
+}
+.search .btn-info {
+    color: #fff;
+    background-color: #e94e38;
+    border-color: transparent;
+}
+.search .btn {
+    margin-left: 32%;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    font-size: 140%;
+    width: 30%;
+}
+/*
+=========================================
+Begenning of tabs with different fetaure
+=========================================
+*/
+
+.section {
+    padding: 10px;
+}
+.form-group .next-option-to-choose {
+    width: 100%;
+    height: 34px;
+    border-radius: 20px;
+    margin-top: 9px;
+}
+.show-map {
+	padding: 8px;
+    margin: 0 auto;
+}
+.show-map .btn-primary {
+    color: #000;
+    background-color: #fff;
+    border-color: #000;
+}
+.show-map .btn {
+	border-radius: 19px;
+}
+.classfied .nav-tabs {
+    border-bottom: 1px solid #ddd;
+}
+
+/*
+===================================
+Classfied part
+===================================
+*/
+
+
+/*
+===================================
+Begenning or products
+===================================
+*/
+.products {
+    background-color: #f3f1f2;
+    padding: 3%;
+    text-align: center;
+}
+.product-list {
+    text-align: center;
+    position: relative;
+}
+
+/*
+======================================
+They are for product with green
+======================================
+*/
+.product-list .icong {
+    position: absolute;
+    width: 14%;
+    height: 14%;
+    background-color: #1baf5d;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    bottom: 35%;
+    left: 40%;
+
+}
+.product-list .image-green img {
+    display: inline-block;
+    border-bottom: 2px solid #1baf5d;
+    width: 100%;
+}
+.product-list .wordg {
+    padding-top: 10%;
+    background-color: #fff;
+}
+.product-list .wordg  span {
+    text-transform: uppercase;
+    color: #1baf5d;
+}
+.product-list .priceg {
+    width: 17%;
+    height: 9%;
+    border-radius: 16%;
+    right: 16%;
+    top: 5%;
+    background-color: #1baf5d;
+    position: absolute;
+    color: #fff;
+}
+/*
+===================================
+End of they are for green
+===================================
+*/
+
+
+/*
+=====================================
+Begenning, they are for product with yellow
+=====================================
+ */
+ .product-list .icony {
+    position: absolute;
+    width: 14%;
+    height: 14%;
+    background-color: #f19e1f;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    bottom: 35%;
+    left: 40%;
+    font-size: 160%;
+}
+.product-list .image-yellow img {
+    display: inline-block;
+    border-bottom: 2px solid #f19e1f;
+    width: 100%;
+}
+.product-list .word {
+    padding-top: 10%;
+    background-color: #fff;
+}
+.product-list .word  span {
+    text-transform: uppercase;
+    color: #f19e1f;
+}
+.product-list .price {
+    width: 17%;
+    height: 9%;
+    border-radius: 16%;
+    right: 16%;
+    top: 5%;
+    background-color: #f19e1f;
+    position: absolute;
+    color: #fff;
+}
+/*
+===============================
+End of they for purple
+===============================
+*/
+
+
+/*=============================
+Begenning of they are for purple
+===============================
+*/
+.product-list .iconp {
+    position: absolute;
+    width: 14%;
+    height: 14%;
+    background-color: #734482;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    bottom: 35%;
+    left: 40%;
+    font-size: 160%;
+}
+.product-list .image-purple img {
+    display: inline-block;
+    border-bottom: 2px solid #734482;
+    width: 100%;
+}
+.product-list .wordp {
+    padding-top: 10%;
+    background-color: #fff;
+}
+.product-list .wordp  span {
+    text-transform: uppercase;
+    color: #734482;
+}
+.product-list .pricep {
+    width: 17%;
+    height: 9%;
+    border-radius: 16%;
+    right: 16%;
+    top: 5%;
+    background-color: #734482;
+    position: absolute;
+    color: #fff;
+}
+/*
+==========================
+End of purple
+==========================
+*/
+
+/*
+======================================
+Begenning of /.review area for green
+======================================
+*/
+.review {
+    margin-top: 3%;
+    text-align: center;
+    position: relative;
+    background-color: #fff;
+}
+.review .image-review-green img {
+    display: inline-block;
+    border-bottom: 2px solid #1baf5d;
+    width: 100%;
+}
+.review .review-icong {
+    position: absolute;
+    width: 14%;
+    height: 19%;
+    background-color: #1baf5d;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    bottom: 41%;
+    left: 9%;
+    font-size: 30px;
+}
+.comment-image {
+    margin-top: 40%;
+}
+.col-md-9 .comment {
+    text-align: left;
+}
+/*
+===================================
+Begenning of /.review for yellow
+===================================
+*/
+.review {
+    margin-top: 3%;
+    text-align: center;
+    position: relative;
+    background-color: #fff;
+}
+.review .image-review-yellow img {
+    display: inline-block;
+    border-bottom: 2px solid #f4b555;
+    width: 100%;
+}
+.review .review-icony {
+    position: absolute;
+    width: 14%;
+    height: 19%;
+    background-color: #f4b555;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    bottom: 41%;
+    left: 9%;
+    font-size: 30px;
+}
+.comment-image {
+    margin-top: 40%;
+}
+.col-md-9 .comment {
+    text-align: left;
+    margin-top: 8%;
+}
+/*
+===================================
+This is for /.products-again
+===================================
+*/
+.products-again {
+    margin-top: 3%;
+}
+/*
+===================================
+End of /.products-again
+===================================
+*/
+
+
+/*
+===================================
+The begenning of /.products-again-three
+===================================
+*/
+
+.products-again-three {
+    margin-top: 3%;
+}
+.products-again-three .review {
+    margin-top: 0;
+}
+/*
+====================================
+End of /.products-again-three
+====================================
+*/
+
+/*=================================
+Begenning of /.more loading
+===================================
+*/
+
+.more {
+    margin: 3%
+}
+/*
+===================================
+End of /.more loading
+===================================
+*/
+
+/*
+==================================
+Begenning of /.feature-again
+==================================
+*/
+.feature-again {
+    padding: 65px;
+    border: 1px solid #e2dee0;
+    position: relative;
+}
+.filter-option {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+.filter-option .fa-home {
+    width: 10px;
+    height: 10px;
+    bottom: 0;
+}
