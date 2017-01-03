@@ -1,0 +1,113 @@
+
+
+/*
+=============================
+Begenning of product features area
+=============================
+*/
+
+.product-features {
+	background-color: #fff;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.in-details-features {
+	margin-top: 30px;
+	text-align: left;
+}
+.product-image {
+	text-align: center;
+}
+.product-image img {
+	width: 75%;
+}
+
+/*
+===============================
+End of product fetaures
+===============================
+*/
+
+/*
+==================================
+Begenning of subscription area
+==================================
+*/
+.subscription {
+	margin-top: 50px;
+	background-color: #000;
+	text-align: center;
+}
+.put-mail {
+    position: relative;
+    width: 340px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.submit .btn-default {
+    position: absolute;
+    top: 60px;
+    left: 363px;
+    right: 0;
+    background-color: #fcdb00;
+}
+.social-media {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	width: 100%;
+}
+.social-media ul {
+	list-style: none;
+	display: table;
+}
+.social-media ul li {
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+.social-media ul li a {
+	display: block;
+    width: 47px;
+    font-size: 30px;
+    color: #fcdb00;
+}
+
+/*
+============================
+End of subscription area
+============================
+*/
+
+
+
+/*
+==============================
+Begenning of footer area
+==============================
+*/
+
+.footer {
+	padding-top: 100px;
+	padding-bottom: 50px;
+	background-color: #000;
+	color: #fff;
+}
+.extra ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.extra ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+/*
+==========================
+End of footer
+==========================
