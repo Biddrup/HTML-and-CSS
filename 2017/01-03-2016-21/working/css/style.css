@@ -48,12 +48,12 @@ Begenning of slider
 	width: 100%;
 	height: 300px;
 }
+
 .yes {
 	position: relative;
 }
-.yes:before {
+.extra {
 	position: absolute;
-	content: "home"
 	top: 0;
-	left: 30px;
+	left: -30px;
 }
