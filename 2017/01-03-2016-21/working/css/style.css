@@ -1,0 +1,59 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/*
+=============================
+Begenning of main-menu
+=============================
+*/
+.main-menu {
+	background-color: #76c7c0;
+	color: #fff;
+	position: relative;
+}
+.main-menu .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    color: #fff;
+}
+
+.main-menu .navbar-brand h2 {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+.main-menu .navbar-default .navbar-brand,
+.main-menu .navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.border-bottom-image {
+    position: absolute;
+    right: 0;
+    bottom: -4px;
+}
+/*
+==============================
+End of main-menu
+==============================
+*/
+
+/*
+==============================
+Begenning of slider
+==============================
+*/
+.item img {
+	width: 100%;
+	height: 300px;
+}
+.yes {
+	position: relative;
+}
+.yes:before {
+	position: absolute;
+	content: "home"
+	top: 0;
+	left: 30px;
+}
