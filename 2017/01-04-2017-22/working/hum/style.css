@@ -1,0 +1,463 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body a {
+	transition: .4s;
+}
+
+body a:hover {
+	background-color: #323338;
+	color: #fff;
+}
+/*
+======================================
+		Header Area Css
+======================================
+*/
+
+.header-area {
+	background-image: url(img/slider.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+.header-area .navbar-default {
+    background-color: transparent;
+}
+.header-area .navbar {
+    border-radius: 0px;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: none;
+}
+.header-area .navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-size: 16px;
+    padding: 25px;
+}
+.header-area .navbar-default .navbar-nav>li>a:hover {
+    color: pink;
+}
+.menu-area {
+	padding: 10px 0;
+}
+
+.header-area .item {
+	height: 575px;
+}
+
+.slider-area h3 {
+	font-weight: 300;
+	word-spacing: 10px;
+	font-size: 30px;
+}
+
+.slider-area h2 {
+	font-weight: 600;
+	font-size: 45px;
+	margin: 30px 0px;
+}
+
+.slider-area p {
+	font-weight: 300;
+}
+
+.slider-area a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 20px;
+	border: 1px solid #fff;
+	font-size: 18px;
+	color: #fff;
+	margin-top: 20px;
+}
+
+.slider-area a:hover {
+	background-color: #fff;
+	color:#333;
+}
+
+
+.slider-area .carousel-caption {
+	left: 5%;
+	right: 5%;
+	top: 25%;
+}
+
+/*
+======================================
+		Products Area Css
+======================================
+*/
+
+.product-area{
+	padding: 30px 0;
+}
+.single-product {
+	margin-top: 30px;
+	position: relative;
+}
+
+.product-head h2 {
+	padding: 10px;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.product-head {
+	position: relative;
+	text-align: center;
+}
+.product-head h2:before {
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 100px;
+	background-color: #dc0000;
+	top: 0;
+	left: 50%;
+	margin-left: -50px;
+}
+
+.product-head h2:after {
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 100px;
+	background-color: #dc0000;
+	top: 55px;
+	left: 50%;
+	margin-left: -50px;
+}
+.single-product img {
+	width: 100%
+}
+
+.hover-area {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #43454f;
+	opacity: .7;
+	transform: scale(0);
+	transition: .3s;
+}
+
+.border-area p {
+	font-size: 30px;
+	text-align: center;
+	color: #fff;
+	font-style: italic;
+	padding: 148px 0;
+}
+
+
+.border-area h3 {
+	font-size: 30px;
+	text-align: center;
+	color: #fff;
+	font-style: italic;
+	padding: 100px 0;
+}
+
+
+.border-area h3:after {
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 160px;
+	background-color: #fff;
+	top: 65%;
+	left: 50%;
+	margin-left: -80px;
+}
+
+.border-area h3:before {
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 160px;
+	background-color: #fff;
+	top: 35%;
+	left: 50%;
+	margin-left: -80px;
+}
+
+.single-product:hover .hover-area{
+	transform: scale(1);
+}
+
+.border-area {
+	top: 20;
+	left: 20;
+	right: 20;
+	bottom: 20;
+	border: 2px solid #fff;
+	margin:30px;
+}
+/*
+======================================
+		Price Area Css
+======================================
+*/
+.price-area{
+	padding: 30px 0;
+	background-image: url(img/price-bg.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+
+.price-head h2 {
+	padding: 10px;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.price-head {
+	position: relative;
+	text-align: center;
+}
+.price-head h2:before {
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 100px;
+	background-color: #dc0000;
+	top: 0;
+	left: 50%;
+	margin-left: -50px;
+}
+
+.price-head h2:after {
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 100px;
+	background-color: #dc0000;
+	top: 55px;
+	left: 50%;
+	margin-left: -50px;
+}
+
+.price-area .carousel-caption {
+	left: 10%;
+	top: 5%;
+	text-align: left;
+	text-shadow: none;
+	color: #777777;
+}
+
+.price-area .carousel-caption img{
+	width: 100%
+}
+
+.price-area .item {
+	height: 580px;
+}
+
+.price-area .carousel-caption h3 {
+	color: #dc0000;
+	padding: 15px;
+}
+
+
+.price-area .carousel-caption p {
+	padding: 5px 15px;
+}
+
+.top-button a{
+	display: inline-block;
+	padding: 5px 15px;
+	border: 1px solid #333;
+	color: #333;
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+
+.top-button a:hover {
+	text-decoration: none
+}
+
+.bottom-button a{
+	display: inline-block;
+	padding: 5px 18px;
+	border: 1px solid #333;
+	color: #333;
+	margin-left: 15px;
+}
+
+.bottom-button a:hover {
+	text-decoration: none
+}
+
+.price-area .carousel-indicators li {
+    background-color: #878787;
+}
+
+.price-area .carousel-indicators .active {
+	background: transparent;
+	border: 1px solid red;
+}
+/*
+======================================
+		Blog Area Css
+======================================
+*/
+
+.blog-area {
+	padding: 30px;
+}
+
+.blog-head h2 {
+	padding: 10px;
+	font-weight: 300;
+	font-style: italic;
+	margin-bottom: 50px;
+}
+
+.blog-area .carousel-caption h2 {
+	color: #dc0000;
+	font-size: 30px;
+}
+
+.blog-area .carousel-caption h4 {
+	color: #333333;
+	font-size: 16px;
+}
+
+.blog-area .carousel-caption p {
+	color: #333333;
+	font-size: 18px;
+}
+
+.blog-head {
+	position: relative;
+	text-align: center;
+}
+.blog-head h2:before {
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 100px;
+	background-color: #dc0000;
+	top: 0;
+	left: 50%;
+	margin-left: -50px;
+}
+
+.blog-head h2:after {
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 100px;
+	background-color: #dc0000;
+	top: 55px;
+	left: 50%;
+	margin-left: -50px;
+}
+
+.blog-area .carousel-caption {
+	left: 2%;
+	right: 2%;
+	text-align: left;
+	text-shadow: none;
+	color: #777777;
+}
+
+.blog-area .carousel-caption img{
+	width: 100%;
+	height: auto;
+}
+
+.blog-area .item {
+	height: 580px;
+}
+
+.blog-area .carousel-control {
+    width: 0%;
+}
+.blog-area .carousel-caption a {
+	display: inline-block;
+	padding: 10px 20px;
+	border: 1px solid #333;
+	color: #333;
+	margin-top: 15px;
+}
+.blog-area .carousel-caption a:hover {
+	text-decoration: none;
+	color:#fff;
+}
+
+/*
+======================================
+		Contact Area Css
+======================================
+*/
+
+.contact-area {
+	background-image: url(img/foot-bg.jpg);
+	color: #fff;
+	padding: 40px;
+}
+.contact-area p {
+	margin: 15px 20px;
+}
+.contact-area .form-control {
+    height: 38px;
+    padding: 6px 60px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+}
+
+.form-main {
+	position: relative;
+}
+
+.form-main i {
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	font-size: 20px;
+}
+
+.my-submit input{
+	border: none;
+	color: #333;
+	padding: 8px 50px;
+	background-color: #fff;
+	transition: .4s;
+}
+
+.my-submit input:hover{
+	background-color: #323338;
+	color: #fff;
+}
+
+/*
+======================================
+		Footer Area Css
+======================================
+*/
+
+.footer-area {
+	text-align: center;
+	padding: 30px;
+}
+
+.footer-area p{
+	margin-top: 15px;
+	color: #333333;
+}
+
+.footer-area i{
+	color: #dc0000;
+}
+
+.footer-area a:hover{
+	text-decoration: none;
+}
