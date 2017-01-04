@@ -1,0 +1,47 @@
+.bt-head {
+   background: green;
+    margin-top: -23px;
+    padding: 88px;
+}
+.bt-head h2 {
+	text-align: center;
+}
+/*
+=====================================
+Footer
+=====================================
+*/
+.footer-area {
+	background: url(../images/9.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 196px;
+}
+.fot h2 {
+	color: #e5e4e5;
+	font-size: 18px;
+	margin-top: 75px;
+	margin-bottom: 25px;
+}
+
+.fot-bottom {
+	width: 100%;
+	height: 125px;
+}
+.fot-bottom h3 {
+	text-align: center;
+	margin-top: 68px;
+	padding: 10px
+}
+.fot-bottom i {
+	color: red;
+}
+.form-control {
+	background-color: transparent;
+}
+.fot-right .btn {
+    margin-top: 117px;
+    margin-left: 77px;
+    width: 180px;	
+}
