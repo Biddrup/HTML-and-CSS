@@ -120,7 +120,7 @@ End of huramam products
 
 /*
 ============================
-Begenning of section
+Begenning of section for article and aside
 ============================
 */
 .section {
@@ -198,4 +198,52 @@ Begenning of section
 .page-list ul li a {
     padding: 3px;
     color: #000;
+}
+/*
+============================
+End of section for article and aside
+============================
+*/
+
+
+/*
+============================
+Begenning of foofter area
+============================
+*/
+.footer {
+    background-color: #1e1e1e;
+}
+.footer h2, .footer h5 {
+    text-transform: uppercase;
+    color: #fff;
+}
+.follow-us-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.follow-us-list ul li {
+    margin: 0;
+    padding: 8px;
+    float: left;
+    border: 3px solid transparent;
+}
+.follow-us-list ul li a {
+    background-color: #333333;
+}
+.subscribe-us {
+    position: relative;
+}
+.subscribe-us .btn {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    bottom: 0;
+    width: 54px;
+    background-color: #f6a873;
+}
+.footer a {
+    text-decoration: none;
+    color: #444444;
 }
