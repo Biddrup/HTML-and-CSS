@@ -123,8 +123,15 @@ End of huramam products
 Begenning of section
 ============================
 */
+.section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.article {
+    margin-bottom: 10px;
+}
 .article-image img {
-    width: 100px;
+    width: 100%;
 }
 .article-stat ul {
     list-style: none;
@@ -136,7 +143,59 @@ Begenning of section
     padding: 0;
     float: left;
 }
-..article-stat ul li a {
-    display: inline-block;
-    margin: 02px;
+.article-stat ul li a {
+    color: #727272;
+    text-decoration: none;
+    margin: 10px;
+}
+.section h2, .see-more {
+    text-transform: uppercase;
+}
+.section .see-more a {
+    color: #f6a873;
+    text-decoration: none;
+}
+.aside .heading {
+    border-bottom: 2px solid #f6a873; 
+}
+.catagory-list ul {
+    margin-left: 18px;
+    padding: 0;
+}
+.catagory-list ul li {
+    list-style-type: circle;
+    font-size: 20px;
+    color: #727272;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 8px;
+}
+.catagory-list ul li a {
+    color: #727272;
+    text-decoration: none;
+}
+.next-article {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.latest-image img {
+    width: 100%;
+}
+.date a {
+    text-decoration: none;
+    color: #f6a873;
+}
+.next-page {
+    border-top: 1px solid #e6e6e6;
+}
+.page-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.page-list ul li {
+    float: left;
+}
+.page-list ul li a {
+    padding: 3px;
+    color: #000;
 }
