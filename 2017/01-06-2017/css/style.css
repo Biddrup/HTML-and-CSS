@@ -38,6 +38,7 @@ Begenning of name-moto
 .name-moto {
 	margin: 0 auto;
 	display: table;
+    padding: 50px;
 }
 .name-moto .name {
 	font-size: 50px;
@@ -247,3 +248,8 @@ Begenning of foofter area
     text-decoration: none;
     color: #444444;
 }
+/*
+============================
+End of footer area
+============================
+*/
