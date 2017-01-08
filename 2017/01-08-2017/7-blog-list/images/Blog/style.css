@@ -1,0 +1,392 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Libre Baskerville', serif;
+	font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body a {
+	transition: .4s;
+}
+
+i {
+	padding-left: 10px;
+}
+
+/*
+=====================================
+		Top Area Css
+=====================================
+*/
+
+.top-area {
+	background-color: #1e1e1e;
+	height: 40px;
+}
+
+.top .navbar {
+    position: relative;
+    height: 40px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 0px;
+}
+
+.jim {
+	min-height: 40px;
+}
+
+.top .navbar-nav>li {
+	border-left: 1px solid;
+    border-right: 1px solid;
+}
+
+.top .navbar-nav>li img {
+	padding-right: 10px;
+    padding-bottom: 2px;
+}
+
+.top .navbar-nav>li>a {
+    padding-top: 9px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.line i {
+	color: #fff;
+}
+
+.top .line i:after{
+    content: "2";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: #f6a873;
+    top: 7px;
+    right: 3px;
+    border-radius: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    padding-top: 2px;
+}
+
+.top .navbar-nav>li>a:hover {
+    color: #fff;
+}
+
+.top .navbar-brand {
+	font-family: 'Roboto', sans-serif;
+    float: left;
+    height: 40px;
+    padding: 8px 15px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #5c5c5c;
+}
+
+.top .navbar-brand:hover {
+	color: #fff;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: #e7e7e7;
+}
+
+.icon {
+	padding: 0;
+}
+
+
+/*
+================================
+		logo area css
+================================
+*/
+
+.logo-area {
+	text-align: center;
+	margin-top: 50px;
+	position: relative;
+}
+
+.logo-area p {
+	font-family: 'Libre Baskerville', serif;
+	font-style: italic;
+	font-size: 13px;
+	padding-top: 5px;
+}
+
+.logo-area p:before {
+	position: absolute;
+	content: "";
+	height: 1px;
+	width: 20px;
+	background-color: #e6e6e6;
+	top: 67px;
+	left: 590px;
+}
+
+.logo-area p:after {
+	position: absolute;
+	content: "";
+	height: 1px;
+	width: 20px;
+	background-color: #e6e6e6;
+	top: 67px;
+	left: 740px;
+}
+
+
+/*
+==================================
+		menu area css
+==================================
+*/
+
+.menu-area {
+	background-color: #f6a873;
+	margin-top: 40px;
+}
+
+
+.menu ul {
+	margin: 0 auto;
+	list-style: none;
+	display: table;
+
+}
+
+.menu ul li {
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+.menu ul li a{
+	display: inline-block;
+	padding: 20px 30px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+}
+
+.menu ul li a:hover{
+	color: #dedede;
+}
+
+.menu .active {
+	position: relative;
+}
+
+.active:before {
+	position: absolute;
+	content: "";
+	height: 3px;
+	width: 75px;
+	background-color: #fff;
+	top: 57px;
+	left: 10px;
+}
+
+/*
+=================================
+		Slider area css
+=================================
+*/
+
+.slider-area {
+	background-color: #c2c2c2;
+	height: 200px;
+	width: auto;
+	text-align: center;
+}
+
+.slider {
+	margin-top: 75px;
+}
+
+.slider h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.slider h5 {
+	text-transform: uppercase;
+}
+
+
+.blog-area {
+	margin: 40px;
+}
+
+.blog {
+	font-family: 'Roboto', sans-serif;
+}
+
+.blog img {
+    width: 100%;
+}
+
+.like {
+	font-size: 12px;
+	color: #727272;
+}
+
+.like ul {
+	margin: 0;
+	padding: 0;
+}
+
+.like ul li{
+	float: left;
+	list-style: none;
+	padding-right: 25px;
+	padding-top: 15px;
+}
+
+.like i{
+	padding-right: 5px;
+	padding-left: 0px;
+}
+
+.blog h2 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	padding-top: 40px;
+}
+
+.blog p {
+	color: #545454;
+	font-weight: normal;
+	padding-top: 15px;
+}
+
+.blog a {
+	color: #f6a873;
+	text-transform: uppercase;
+	padding-top: 10px;
+	font-size: 14px;
+	font-family: 'Source Sans Pro', sans-serif;
+	display: inherit;
+	text-decoration: none;
+	margin-bottom: 50px;
+}
+
+.blog a:hover {
+	color: #f06b10;
+}
+
+.category {
+	border: 1px solid #dedede;
+}
+
+.category h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	position: relative;
+	padding-left: 12px;
+	top: 5px;
+}
+
+.category h3:after {
+	content: "";
+	position: absolute;
+	width: 230px;
+	height: 1px;
+	background-color: #f6a873;
+	top: 42px;
+	right: 18px;
+}
+
+.category ul {
+	margin-top: 5px;
+}
+
+.topic {
+	position: relative;
+}
+
+.category ul li {
+	list-style: none;
+	padding: 30px 0px 4px 0px;
+}
+
+.category ul li:before {
+	position: absolute;
+	content: "";
+	height: 1px;
+	width: 230px;
+	/* border: 1px solid #9f9f9f; */
+	border-radius: 50px;
+	left: 15px;
+	margin-top: 34px;
+	background-color: #dedede;
+}
+
+.category ul li:after {
+	position: absolute;
+	content: "";
+	height: 12px;
+	width: 12px;
+	border: 1px solid #9f9f9f;
+	border-radius: 50px;
+	left: 14px;
+	margin-top: 4px;
+}
+
+.latest {
+	border: 1px solid #dedede;
+	margin-top: -50px;
+}
+
+.latest h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	position: relative;
+	padding-left: 10px;
+}
+
+.latest h3:after {
+	content: "";
+	position: absolute;
+	width: 230px;
+	height: 1px;
+	background-color: #f6a873;
+	top: 42px;
+	right: 18px;
+}
+
+.latest {
+	height: 485px;
+}
+
+.post img {
+	padding-top: 30px;
+    padding-left: 0px;
+    margin-left: 10px;
+}
+
+.post p {
+	font-family: 'Roboto', sans-serif;
+	padding-top: 28px;
+}
+
+.post h5 {
+	font-family: 'Roboto', sans-serif;
+	color: #f6a873;
+}
+
+
+
+
+
