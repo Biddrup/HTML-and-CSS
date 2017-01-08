@@ -2,3 +2,8 @@
 	margin: 0 auto;
 	display: table;
 }
+.main-menu ul li {
+	margin: 0;
+	padding: 10px;
+	float: left;
+}
