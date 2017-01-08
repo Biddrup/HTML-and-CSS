@@ -1,24 +1,3 @@
 .an-image {
-	position: relative;
-	display: inline-block;
-}
-.an-image:before {
-    content: "";
-    bottom: 0;
-    left: 0;
-    width: 40%;
-    box-shadow: 2px 4px 13px 12px #765469;
-    z-index: -1;
-    transform: rotate(-5deg);
-    position: absolute;
-}
-.an-image:after {
-    content: "";
-    bottom: 0;
-    right: 0;
-    width: 40%;
-    box-shadow: 2px 4px 13px 12px #765469;
-    z-index: -2;
-    transform: rotate(-5deg);
-    position: absolute;
+    text-align: center;
 }

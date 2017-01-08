@@ -1,0 +1,269 @@
+/*===========================
+Begenning of shopping area
+=============================
+*/
+.shopping-area {
+    background-color: #000;
+}
+.navbar.navbar-default.first-nav {
+    background-color: transparent;
+    border: none;
+}
+.add-to-cart {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.add-to-cart li {
+	float: left;
+}
+.add-to-cart li a {
+    color: #337ab7;
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px;
+    font-size: 16px;
+}
+/*
+============================
+End of shopping area
+============================
+*/
+
+/*
+============================
+Begenning of name-moto
+============================
+*/
+.name-moto {
+	margin: 0 auto;
+	display: table;
+    padding: 50px;
+}
+.name-moto .name {
+	font-size: 50px;
+}
+.name-moto .moto {
+	text-transform: capitalize;
+	font-style: italic;
+	font-size: 20px;
+	position: relative;
+	display: inline-block;
+
+}
+.moto:before {
+    content: " ";
+    position: absolute;
+    height: 2px;
+    width: 32px;
+    left: -41px;
+    bottom: 6px;
+    background-color: #e6e6e6;
+}
+.moto:after {
+    content: " ";
+    position: absolute;
+    height: 2px;
+    width: 32px;
+    right: -41px;
+    bottom: 6px;
+    background-color: #e6e6e6;
+}
+/*
+============================
+End of name-moto
+============================
+*/
+
+/*
+============================
+Begenning of main-menu
+============================
+*/
+.main-menu {
+	background-color: #f6a873;
+	text-transform: uppercase;
+}
+.second-nav-ul ul {
+    list-style: none;
+    display: table;
+    margin: 0 auto;
+}
+.second-nav-ul ul li {
+    margin: 0;
+    padding: 10px;
+    float: left;
+}
+.navbar.navbar-default.second-nav {
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    color: #fff;
+}
+.nav.navbar-nav.second-nav-ul>li>a {
+    color: #fff;
+}
+/*
+============================
+End of main-menu
+============================
+*/
+
+/*
+============================
+Begenning of huramam products
+============================
+*/
+.hurama-products {
+	padding-top: 50px;
+	padding-bottom: 50px;
+    background-color: #c2c2c2;
+}
+.option-one, .option-two {
+	margin: 0 auto;
+	display: table;
+}
+/*
+============================
+End of huramam products
+============================
+*/
+
+/*
+============================
+Begenning of section for article and aside
+============================
+*/
+.section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.article {
+    margin-bottom: 10px;
+}
+.article-image img {
+    width: 100%;
+}
+.article-stat ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.article-stat ul li {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.article-stat ul li a {
+    color: #727272;
+    text-decoration: none;
+    margin: 10px;
+}
+.section h2, .see-more {
+    text-transform: uppercase;
+}
+.section .see-more a {
+    color: #f6a873;
+    text-decoration: none;
+}
+.aside .heading {
+    border-bottom: 2px solid #f6a873; 
+}
+.catagory-list ul {
+    margin-left: 18px;
+    padding: 0;
+}
+.catagory-list ul li {
+    list-style-type: circle;
+    font-size: 20px;
+    color: #727272;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 8px;
+}
+.catagory-list ul li a {
+    color: #727272;
+    text-decoration: none;
+}
+.next-article {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.latest-image img {
+    width: 100%;
+}
+.date a {
+    text-decoration: none;
+    color: #f6a873;
+}
+.next-page {
+    border-top: 1px solid #e6e6e6;
+}
+.page-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.page-list ul li {
+    float: left;
+}
+.page-list ul li a {
+    padding: 3px;
+    color: #000;
+}
+/*
+============================
+End of section for article and aside
+============================
+*/
+
+
+/*
+============================
+Begenning of foofter area
+============================
+*/
+.footer {
+    background-color: #1e1e1e;
+}
+.footer h2, .footer h5 {
+    text-transform: uppercase;
+    color: #fff;
+}
+.follow-us-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.follow-us-list ul li {
+    margin: 0;
+    padding: 8px;
+    float: left;
+    border: 3px solid transparent;
+}
+.follow-us-list ul li a {
+    background-color: #333333;
+}
+.subscribe-us {
+    position: relative;
+}
+.subscribe-us .btn {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    bottom: 0;
+    width: 54px;
+    background-color: #f6a873;
+}
+.footer-ul {
+    margin: 0;
+    padding: 0;
+}
+.footer a {
+    text-decoration: none;
+    color: #444444;
+}
+/*
+============================
+End of footer area
+============================
+*/
