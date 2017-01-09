@@ -1,0 +1,78 @@
+/*
+===========================
+Begenning of header area
+===========================
+*/
+.header {
+	background-color: #2a2e33;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px;
+}
+.header .main-menu .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+.header .main-menu .navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+/*
+===========================
+End of header area
+===========================
+*/
+
+/*
+===========================
+Begenning of welcome area
+===========================
+*/
+.welcome {
+	background-color: #00ccff;
+	text-align: center;
+	padding: 30px;
+	color: #fff;
+}
+.welcome h2 {
+	margin: 10px;
+}
+/*
+===========================
+End of welcome area
+===========================
+*/
+
+/*
+===========================
+Begenning of offer area
+===========================
+*/
+.offer-area {
+	text-align: center;
+	background-color: #f3f3f3;
+}
+.image {
+	padding: 30px;
+}
+.offer-option ul {
+	list-style: none;
+	margin: 0 auto;
+	display: table;
+}
+.offer-option ul li {
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+.offer-option ul li a img {
+	width: 304px;
+	height: 236px;
+}
+/*
+===========================
+End of offer area
+===========================
+*/
