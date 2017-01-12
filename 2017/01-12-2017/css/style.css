@@ -1,13 +1,5 @@
-.images {
-	background-color: #ff0;
-	width: 100%;
-	height: 200px;
-	position: relative;
-}
-.images:after {
-	content: "";
-	box-shadow: 10px 10px 5px 10px #7BAAEA;
-	left: 0;
-	bottom: 0;
-	position: absolute;
+.boxing {
+    width: 100%;
+    background-color: #000;
+    height: 100px;
 }
