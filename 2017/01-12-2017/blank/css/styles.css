@@ -107,20 +107,23 @@ Header Area Start
     font-weight: 400;
     font-size: 18px;
     text-transform: capitalize;
+    display: inline-block;
+    position: relative;
     
     padding: 10px 10px;
 }
 .main-navbar .navbar-nav>li>a> span {
     padding: 10px 0;
 }
-.main-navbar .navbar-nav>li:hover:after {
+.main-navbar .navbar-nav>li>a:hover:after {
     content: " ";
     width: 20%;
     border: 1px solid red;
     position: absolute;
-    left: 19%;
-    bottom: 30%;
+    left: 12%;
+    bottom: 25%;
 }
+
 .main-navbar .navbar-nav>li> a:hover {
     color: #fff;
 }
