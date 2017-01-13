@@ -1,0 +1,34 @@
+/*
+==============================
+Begenning of header area
+==============================
+*/
+.header {
+
+}
+.first-menu {
+	background-color: #1e1e1e;
+	color: #535353;
+}
+.first-menu .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    text-transform: capitalize;
+}
+.first-menu ul li a {
+	display: inline-block;
+	position: relative;
+}
+.first-menu ul li a:after {
+	content: "\f107";
+	position: absolute;
+	top: 25%;
+	right: 0;
+	font-family: "FontAwesome";
+}
+
+/*
+==============================
+End of header area
+==============================
+*/
