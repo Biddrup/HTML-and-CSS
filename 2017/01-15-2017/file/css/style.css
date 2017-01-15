@@ -1,0 +1,42 @@
+
+.wrapper {
+    overflow: hidden;
+    
+}
+.box {
+	width: 300px;
+	height: 250px;
+	background: red;
+	position: relative;
+	
+}
+.box:after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 11px;
+    width: 50%;
+    box-shadow: 5px -3px 8px 10px grey;
+    z-index: -20;
+    transform: rotate(-3deg);
+}
+.box:before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    right: 14px;
+    width: 50%;
+    box-shadow: -5px -3px 5px 10px grey;
+    z-index: -20;
+    transform: rotate(2deg);
+}
+
+.our-button {
+    padding: 20px 50px;
+    color: #fff;
+
+    background: radial-gradient(red, yellow, green); /* Standard syntax */
+    text-align: center;
+    box-shadow: 0 7px 5px 3px cyan;
+    border-radius: 20px;
+}

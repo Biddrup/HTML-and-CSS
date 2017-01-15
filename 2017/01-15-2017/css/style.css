@@ -1,0 +1,238 @@
+/*
+==============================
+Begenning of header area
+==============================
+*/
+.header {
+
+}
+.first-menu {
+	background-color: #1e1e1e;
+	color: #535353;
+}
+.first-menu .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    text-transform: capitalize;
+}
+.first-menu ul li a {
+	display: inline-block;
+	position: relative;
+}
+.first-menu ul li a:after {
+	content: "\f107";
+	position: absolute;
+	top: 25%;
+	right: 0;
+	font-family: "FontAwesome";
+}
+.mother-menu {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.mother-menu .navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+}
+.mother-menu a {
+	text-transform: uppercase;
+	color: #000;
+    font-weight: 800;
+}
+.mother-menu .navbar-brand {
+	padding: 0 15px;
+}
+.mother-menu .navbar-default .navbar-nav>li>a:hover {
+    color: #ff6029;
+    background-color: transparent;
+}
+/*
+==============================
+End of header area
+==============================
+*/
+
+/*
+==============================
+Begenning of slider area
+==============================
+*/
+.product {
+	background-color: #c2c2c2;
+}
+.extra-product {
+	background-color: #c2c2c2;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+/*
+==============================
+End of slider area
+==============================
+*/
+
+/*
+==============================
+Begenning of service-feature area
+==============================
+*/
+.service-feature {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-top: 1px solid #c2c2c2;
+	border-bottom: 1px solid #c2c2c2;
+}
+.service-feature-option {
+	padding-left: 10px;
+	position: relative;
+}
+.service-feature-option:after {
+	content: "\f155";
+	position: absolute;
+	top: 25%;
+	left: 0;
+	font-family: "FontAwesome";
+}
+/*
+==============================
+End of service-feature area
+==============================
+*/
+
+/*
+==============================
+Begenning of discount-trending
+==============================
+*/
+.dscount {
+	background-color: #c2c2c2;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	position: relative;
+}
+.dscount:after {
+	content: "shop now \f054";
+	position: absolute;
+	top: 50%;
+	right: 0;
+	font-family: "FontAwesome";
+}
+/*
+==============================
+Begenning of discount-trending
+==============================
+*/
+
+/*
+==============================
+Begenning of classified-product
+==============================
+*/
+.main-product {
+	background-color: #e5e5e5;
+	padding-left: 15%;
+	padding-bottom: 5%;
+}
+.product-image {
+    margin-top: 12%;
+    margin-bottom: 12%;
+}
+.star {
+	position: relative;
+    width: 81px;
+    height: 17px;
+    overflow: hidden;
+}
+.empty-star {
+    width: 81px;
+    height: 17px;
+}
+.full-star.two-star {
+    position: absolute;
+    top: 0;
+    right: 60%;
+}
+.price {
+    position: relative;
+    display: inline-block;
+    margin-left: 4%;
+    margin-top: 6%;
+}
+.price:before {
+	content: "\f155";
+	left: -40%;
+	top: 0;
+	position: absolute;
+	font-family: "FontAwesome"
+}
+/*
+==============================
+ENd of classified-product
+==============================
+*/
+
+/*
+==============================
+Begenning of section
+==============================
+*/
+.section {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/*
+==============================
+End of section
+==============================
+*/
+
+/*
+============================
+Begenning of foofter area
+============================
+*/
+.footer {
+    background-color: #1e1e1e;
+}
+.footer h2, .footer h5 {
+    text-transform: uppercase;
+    color: #fff;
+}
+.follow-us-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.follow-us-list ul li {
+    margin: 0;
+    padding: 8px;
+    float: left;
+    border: 3px solid transparent;
+}
+.follow-us-list ul li a {
+    background-color: #333333;
+}
+.subscribe-us {
+    position: relative;
+}
+.subscribe-us .btn {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    bottom: 0;
+    width: 54px;
+    background-color: #f6a873;
+}
+.footer-ul {
+    margin: 0;
+    padding: 0;
+}
+.footer a {
+    text-decoration: none;
+    color: #444444;
+}
+/*
+============================
+End of footer area
+============================
+*/
