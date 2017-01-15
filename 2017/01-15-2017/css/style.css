@@ -253,19 +253,38 @@ End of footer area
 	bottom: 0;
 }
 .this {
-	background-color: #f00;
+	background-color: #fff;
 	width: 20%;
-	height: 20%;
+	height: 10%;
 	left: 0;
 	bottom: 0;
 	position: fixed;
+	border: 2px solid lightblue;
+	text-align: center;
+	text-transform: uppercase;
 }
-
+.this:after {
+	content: "\f007";
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	font-family: "FontAwesome";
+	font-size: 20px;
+}
+.this:before {
+	content: "\f01c";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	font-family: "FontAwesome";
+	font-size: 20px;
+}
 .this.this-one {
-	background-color: #ff0;
-	width: 30%;
-	height: 20%;
+	background-color: #fff;
+	width: 20%;
+	height: 40%;
 	left: 0;
 	bottom: 0;
 	position: fixed;
+	border: 2px solid green;
 }

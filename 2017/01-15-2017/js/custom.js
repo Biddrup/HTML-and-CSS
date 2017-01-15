@@ -15,4 +15,7 @@ $(document).ready(function(){
           }
       }
   })
+  $('.this').click(function(){
+    $('.this').toggleClass('this-one');
+  });
 });
