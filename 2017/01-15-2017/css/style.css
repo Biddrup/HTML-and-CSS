@@ -236,3 +236,36 @@ Begenning of foofter area
 End of footer area
 ============================
 */
+
+.chat-us {
+    background-color: #f00;
+    width: 21%;
+    height: 20%;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+.chat-us .clcik-chat {
+	width: 200px;
+	height: auto;
+	background-color: #ff0;
+	right: 0;
+	bottom: 0;
+}
+.this {
+	background-color: #f00;
+	width: 20%;
+	height: 20%;
+	left: 0;
+	bottom: 0;
+	position: fixed;
+}
+
+.this.this-one {
+	background-color: #ff0;
+	width: 30%;
+	height: 20%;
+	left: 0;
+	bottom: 0;
+	position: fixed;
+}
